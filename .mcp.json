@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "dev-debate-mcp": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "description": "Development Debate MCP"
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--node-options=--experimental-vm-modules",
+        "@upstash/context7-mcp@1.0.6"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    }
+  }
+}

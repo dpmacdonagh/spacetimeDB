@@ -1,0 +1,3 @@
+- NEVER make pixel-canvas folders, never make module folders, the directory struction is /client is the react app, /server is the spacetimeDB app, THATS IT
+- Only write the simplest code, your goal is to do the least amount of lines possible, no tangents, no extra code or files or directories, only the bare minimum to complete the task
+- You are ONLY allowed to get documentation through the context7 MCP server, which you can invoke using "use context7", if you cannot find the documentation there, you can do ONE web search to find the latest 2025 standards documentation for whatever you are looking for
